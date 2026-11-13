@@ -1,12 +1,12 @@
 # homebrew-run-ai
 
-Homebrew tap for [run-ai](https://ai.hostingodvaska.cz/) — a provider-neutral
+Homebrew tap for [run-ai](https://github.com/vaclavambroz/run-ai) — a provider-neutral
 terminal AI session runner.
 
 ## Installation
 
 ```sh
-brew tap hostingodvaska/run-ai
+brew tap vaclavambroz/run-ai
 brew install run-ai
 run_ai --help
 ```
@@ -14,7 +14,7 @@ run_ai --help
 If the tap has not yet been published to GitHub, install with the full URL:
 
 ```sh
-brew tap hostingodvaska/run-ai https://github.com/hostingodvaska/homebrew-run-ai
+brew tap vaclavambroz/run-ai https://github.com/vaclavambroz/homebrew-run-ai
 brew install run-ai
 ```
 
@@ -49,7 +49,7 @@ updated with each new release. Never edit the SHA256 values by hand.
 
 ```sh
 brew uninstall run-ai
-brew untap hostingodvaska/run-ai
+brew untap vaclavambroz/run-ai
 ```
 
 ## Official release and manifest
