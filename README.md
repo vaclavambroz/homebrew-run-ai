@@ -72,6 +72,18 @@ curl -sO https://ai.hostingodvaska.cz/keys/run-ai-release.minisign.pub
 minisign -Vm manifest.json -p run-ai-release.minisign.pub
 ```
 
+## License and provenance
+
+The **0.4.1 binary** distributed by this formula was produced before the
+source code was published. It is not covered by the MIT license of the
+public source repository. Use it under the terms that accompanied the
+original release.
+
+The **source code** at [github.com/vaclavambroz/run-ai](https://github.com/vaclavambroz/run-ai)
+is MIT licensed (Copyright 2026 Václav Ambrož). Builds from source are
+MIT licensed. Future formula releases will be sourced from public
+Minisign-signed builds and will carry the MIT SPDX identifier.
+
 ## Security
 
 Artifact SHA256 values in the formula are taken directly from the

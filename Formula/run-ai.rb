@@ -2,7 +2,7 @@ class RunAi < Formula
   desc "Provider-neutral terminal AI session runner"
   homepage "https://github.com/vaclavambroz/run-ai"
   version "0.4.1"
-  license "MIT"
+  license :cannot_represent
   depends_on "tmux"
   depends_on "rsync"
   depends_on :macos
